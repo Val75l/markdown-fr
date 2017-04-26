@@ -7,7 +7,9 @@ Ce truc tordu vous permet de créer un nouvel utilisateur avec lequel vous pourr
 ##Explication
 Ce truc effectue une chose, il fait croire à Mac OS X qu'il n'est pas complètement installé, ce qui l'amène à vous demander de créer un nouveau compte utilisateur au démarrage. Vous aurez ensuite accès à ce compte et par la même occasion, à la modification de tous les autres utilisateurs.
 
-    Démarrer votre PC et maintenir les touches Apple et C enfoncées immédiatement après le premier son de démarrage. Lorsque vous arrivez dans la console, vous devrez taper des commandes avec votre clavier **en respectant parfaitement les majuscules!**
+   Démarrer votre PC et maintenir les touches Apple et C enfoncées immédiatement après le premier son de démarrage. Lorsque vous arrivez dans la console, vous devrez taper des commandes avec votre clavier
+    **en respectant parfaitement les majuscules!**
+    
     _Taper mount -uw /  et appuyer sur Entrée._
     _Taper rm /var/db/.AppleSetupDone et appuyer sur Entrée._
     _Taper shutdown -h now et appuyer sur Entrée._
