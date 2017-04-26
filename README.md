@@ -4,7 +4,8 @@
 
 Ce truc tordu vous permet de créer un nouvel utilisateur avec lequel vous pourrez modifier le mot de passe des autres utilisateurs, sans le CD d'installation qui peut aussi servir à réinitialiser votre mot de passe.
 
-##Explication
+## Explication
+
 Ce truc effectue une chose, il fait croire à Mac OS X qu'il n'est pas complètement installé, ce qui l'amène à vous demander de créer un nouveau compte utilisateur au démarrage. Vous aurez ensuite accès à ce compte et par la même occasion, à la modification de tous les autres utilisateurs.
 
    Démarrer votre PC et maintenir les touches Apple et C enfoncées immédiatement après le premier son de démarrage. Lorsque vous arrivez dans la console, vous devrez taper des commandes avec votre clavier
