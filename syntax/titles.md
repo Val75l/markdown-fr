@@ -7,11 +7,11 @@ Le Markdown supporte deux sortes de header, Setext et atx.
 Les Headers Setext sont “soulignés” en utilisant des signes égal (Pour le premier niveau de headers) et dashes (pour le second niveau de headers). Par exemple:
 
 ```
-This is an H1
-=============
+Ceci est un H1
+==============
 
-This is an H2
--------------
+Ceci est un H2
+--------------
 ```
 
 aucun nombre du soulignage =’s ou -’s veut fonctionner.
@@ -19,22 +19,22 @@ aucun nombre du soulignage =’s ou -’s veut fonctionner.
 Les headers Atx utilisent 1-6 caractères hash au début de la ligne, correspondants aux niveaux des header 1 à 6. par exemple:
 
 ```
-# This is an H1
+# Ceci est un H1
 
-## This is an H2
+## Ceci est un H2
 
-###### This is an H6
+###### Ceci est un H6
 ```
 
 
 Accessoirement, vous pouvez “fermer” les headers de type atx. Ceci est purement esthétique — vous pouvez utiliser cela si vous pensez que cela est mieux. La fermeture des hashes, vous ne devez même pas savoir matcher le nombre de hashes utilisés pour ouvrir le header. (Le nombre de hashes ouverts determinent le niveau du header.) :
 
 ```
-# This is an H1 #
+# Ceci est un H1 #
 
-## This is an H2 ##
+## Ceci est un H2 ##
 
-### This is an H3 ######
+### Ceci est un H3 ######
 ```
 
 
@@ -43,8 +43,8 @@ Accessoirement, vous pouvez “fermer” les headers de type atx. Ceci est purem
 Ici un quiz sur les titres en Markdown.
 
 Sélectionnez les bons headers:
-- [x] `# hello`
-- [ ] `#hello`
+- [x] `# bonjour`
+- [ ] `#bonjour`
 
 >Les Headers ont besoin d'un espace entre les caractères de hash et le texte.
 
