@@ -1,10 +1,10 @@
-# Titles
+# Titres
 
-As we started writing a markdown document, we need to add a title and some sub-headers.
+Quand on commence a rediger un document en Markdown, on se doit d'ajouter un titre et plusieurs sous-headers.
 
-Markdown supports two styles of headers, Setext and atx.
+Le Markdown supporte deux sortes de header, Setext et atx.
 
-Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers). For example:
+Les Headers Setext sont “soulignés” en utilisant des signes égal (Pour le premier niveau de headers) et dashes (pour le second niveau de headers). Par exemple:
 
 ```
 This is an H1
@@ -14,9 +14,9 @@ This is an H2
 -------------
 ```
 
-Any number of underlining =’s or -’s will work.
+aucun nombre du soulignage =’s ou -’s veut fonctionner.
 
-Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
+Les headers Atx utilisent 1-6 caractères hash au début de la ligne, correspondants aux niveaux des header 1 à 6. par exemple:
 
 ```
 # This is an H1
@@ -27,7 +27,7 @@ Atx-style headers use 1-6 hash characters at the start of the line, correspondin
 ```
 
 
-Optionally, you may “close” atx-style headers. This is purely cosmetic — you can use this if you think it looks better. The closing hashes don’t even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.) :
+Accessoirement, vous pouvez “fermer” les headers de type atx. Ceci est purement esthétique — vous pouvez utiliser cela si vous pensez que cela est mieux. La fermeture des hashes, vous ne devez même pas savoir matcher le nombre de hashes utilisés pour ouvrir le header. (Le nombre de hashes ouverts determinent le niveau du header.) :
 
 ```
 # This is an H1 #
@@ -40,15 +40,15 @@ Optionally, you may “close” atx-style headers. This is purely cosmetic — y
 
 ---
 
-Here's a quiz about markdown titles.
+Ici un quiz sur les titres en Markdown.
 
-Select the valid headers:
+Sélectionnez les bons headers:
 - [x] `# hello`
 - [ ] `#hello`
 
-> Headers need space between the hash characters and the text.
+>Les Headers ont besoin d'un espace entre les caractères de hash et le texte.
 
-Select the valid headers:
+Sélectionnez les bons headers headers:
 - [ ]  
 ```
 test
@@ -60,7 +60,7 @@ test
 =======
 ```
 
-> Only '=' and '-' are accepted for underlining an header.
+> Seul '=' et '-' sont acceptés pour souligner un header.
 
 ---
 
