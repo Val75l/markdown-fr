@@ -10,7 +10,9 @@ Ce truc effectue une chose, il fait croire à Mac OS X qu'il n'est pas complète
    Démarrer votre PC et maintenir les touches Apple et C enfoncées immédiatement après le premier son de démarrage. Lorsque vous arrivez dans la console, vous devrez taper des commandes avec votre clavier
     **en respectant parfaitement les majuscules!**
     
-    _Taper mount -uw /  et appuyer sur Entrée._
-    _Taper rm /var/db/.AppleSetupDone et appuyer sur Entrée._
-    _Taper shutdown -h now et appuyer sur Entrée._
-    _L'ordinateur s'arrête, vous pouvez ensuite le redémarrer, répondre aux questions, créer votre nouvel utilisateur et accéder aux autres Comptes d'utilisateurs dans les Préférences système pour modifier leur mot de passe._
+    Taper mount -uw /  et appuyer sur Entrée.
+    Taper rm /var/db/.AppleSetupDone et appuyer sur Entrée.
+    Taper shutdown -h now et appuyer sur Entrée.
+    L'ordinateur s'arrête, vous pouvez ensuite le redémarrer, répondre aux questions, créer votre nouvel utilisateur et accéder aux autres Comptes d'utilisateurs dans les Préférences système pour modifier leur mot de passe.
+    
+    **Fin**
